@@ -1,0 +1,22 @@
+(or (m k) :a)
+
+[‎6/‎20/‎2018 11:13 AM] Bhavana Channavajjala:
+so with the or function, I played around with it and if the first value passed in evaluates to true, then true is what is returned. Otherwise, it returns the last expression
+[‎6/‎20/‎2018 11:14 AM] Bediako George:
+Precisely
+[‎6/‎20/‎2018 11:14 AM] Sarah Lei:
+and also returns nil as well
+[‎6/‎20/‎2018 11:14 AM] Bediako George:
+So how does this relate to "get"?
+[‎6/‎20/‎2018 11:17 AM] Bhavana Channavajjala:
+so with the map, if the keyword k doesn't exist in the map, then the whole or expression evaluates to :a
+[‎6/‎20/‎2018 11:17 AM] Bediako George:
+So?
+[‎6/‎20/‎2018 11:17 AM] Sarah Lei:
+For get, if the keyword is not in the map, it will return nil
+[‎6/‎20/‎2018 11:18 AM] Bediako George:
+That is part of what "get" does
+What is it's other behavior?
+[‎6/‎20/‎2018 11:18 AM] Sarah Lei:
+Returning that alternate specified value
+instead of nil, which is the last part of the expression
